@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perksurge | Win a $1,000 CashApp Gift Card Giveaway</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        cash: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            400: '#4ade80',
+                            500: '#00D632', // Primary CashApp-inspired vibrant green
+                            600: '#00b82b',
+                            700: '#009623',
+                            900: '#052e16',
+                        }
+                    },
+                    boxShadow: {
+                        'glow': '0 10px 30px -5px rgba(0, 214, 50, 0.35)',
+                        'card': '0 20px 40px -15px rgba(0, 0, 0, 0.08)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Subtle floating animation for the virtual reward card */
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-8px) rotate(1deg); }
+        }
+        .animate-float {
+            animation: float 4s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-cash-500 selection:text-white flex flex-col min-h-screen">
+
+    <!-- =====================================================================
+         CONFIGURATION SECTION
+         ===================================================================== -->
+    <script>
+        const CONFIG = {
+            AFFILIATE_OFFER_URL: "https://app.trcefy.com/click?pid=2&offer_id=25563&sub2=u502833&sub5=s1SUBID1HERE",
+            OFFER_AMOUNT: "$1,000",
+            PROGRAM_NAME: "Perksurge Rewards",
+            REQUIRED_SHARES: 5,
+            SHARE_MESSAGE: "Hey! Check out this $1,000 CashApp promotional giveaway! Enter here: "
+        };
+    </script>
+
+    <!-- Top Promotional Bar -->
+    <div class="bg-slate-900 text-white text-xs sm:text-sm py-2.5 px-4 text-center font-medium">
+        <div class="max-w-5xl mx-auto flex items-center justify-center gap-2">
+            <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-cash-500/20 text-cash-400 border border-cash-500/30">
+                🇺🇸 USA Exclusive
+            </span>
+            <span>Limited-Time Promotional Sweepstakes • Open to U.S. Residents (18+)</span>
+        </div>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/80 sticky top-0 z-40">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+                <div class="w-9 h-9 rounded-xl bg-cash-500 flex items-center justify-center text-white font-extrabold text-xl shadow-sm">
+                    $
+                </div>
+                <div>
+                    <span class="font-extrabold text-lg tracking-tight text-slate-900">Perksurge</span>
+                    <span class="hidden sm:inline-block text-xs font-medium text-slate-400 ml-1.5">Promotions</span>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-3 text-xs sm:text-sm font-medium text-slate-600">
+                <div class="flex items-center gap-1.5 bg-cash-50 text-cash-700 px-3 py-1.5 rounded-full border border-cash-100">
+                    <span class="w-2 h-2 rounded-full bg-cash-500 animate-pulse"></span>
+                    <span>Entries Open</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Hero Section -->
+    <main class="flex-grow">
+        <section class="relative overflow-hidden pt-10 pb-16 sm:pt-16 sm:pb-24 px-4 sm:px-6">
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-96 bg-gradient-to-b from-cash-100/60 to-transparent rounded-full blur-3xl -z-10 pointer-events-none"></div>
+
+            <div class="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+                
+                <!-- Left Column: Offer Copy & Primary CTA -->
+                <div class="lg:col-span-7 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 shadow-sm text-xs font-semibold text-slate-700 mb-6">
+                        <svg class="w-4 h-4 text-cash-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>No Purchase Necessary • Fast 60-Second Entry</span>
+                    </div>
+
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.12] mb-5">
+                        Get a Chance to Win <span class="text-cash-500">$1,000</span> CashApp!
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8">
+                        Fill out your basic information—just your <strong>Email &amp; U.S. Zip Code</strong>—to complete your entry into the Perksurge $1,000 CashApp promotional giveaway.
+                    </p>
+
+                    <!-- Primary Action Card -->
+                    <div class="bg-white p-5 sm:p-6 rounded-3xl shadow-card border border-slate-100 max-w-lg mx-auto lg:mx-0">
+                        <button id="primary-cta-btn"
+                           onclick="openShareModal()"
+                           class="w-full inline-flex items-center justify-center gap-3 bg-cash-500 hover:bg-cash-600 active:scale-[0.99] text-white font-bold text-lg sm:text-xl py-4 px-8 rounded-2xl shadow-glow transition-all duration-200 cursor-pointer">
+                            <span>Claim Your Entry</span>
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                            </svg>
+                        </button>
+
+                        <!-- Trust & Requirement Micro-Copy -->
+                        <div class="mt-4 flex flex-wrap items-center justify-center lg:justify-between gap-2 text-xs text-slate-500">
+                            <span class="flex items-center gap-1.5">
+                                <svg class="w-4 h-4 text-cash-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                                </svg>
+                                256-Bit SSL Encrypted
+                            </span>
+                            <span>•</span>
+                            <span>Requires Valid Email &amp; US Zip Code</span>
+                        </div>
+                    </div>
+
+                    <!-- Eligibility Quick Pills -->
+                    <div class="mt-7 flex flex-wrap items-center justify-center lg:justify-start gap-3 text-xs font-medium text-slate-600">
+                        <span class="bg-white px-3 py-1.5 rounded-xl border border-slate-200/80">🇺🇸 United States Only</span>
+                        <span class="bg-white px-3 py-1.5 rounded-xl border border-slate-200/80">🔞 Ages 18 &amp; Older</span>
+                        <span class="bg-white px-3 py-1.5 rounded-xl border border-slate-200/80">📱 Mobile &amp; Desktop Friendly</span>
+                    </div>
+                </div>
+
+                <!-- Right Column: Visual $1,000 Digital Reward Card -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative w-full max-w-sm animate-float">
+                        <div class="absolute -inset-2 bg-gradient-to-tr from-cash-500 to-emerald-300 rounded-[2rem] blur-xl opacity-30"></div>
+                        
+                        <div class="relative bg-gradient-to-br from-[#00D632] via-[#00b82b] to-[#007a1d] text-white rounded-[1.75rem] p-7 sm:p-8 shadow-2xl border border-white/25 overflow-hidden">
+                            <div class="absolute -right-10 -top-10 w-40 h-40 rounded-full bg-white/10 pointer-events-none"></div>
+                            <div class="absolute -left-12 -bottom-12 w-44 h-44 rounded-full bg-black/10 pointer-events-none"></div>
+
+                            <div class="flex items-center justify-between mb-8 relative z-10">
+                                <div class="flex items-center gap-2.5">
+                                    <div class="w-10 h-10 rounded-xl bg-white text-cash-600 flex items-center justify-center font-black text-2xl shadow-sm">
+                                        $
+                                    </div>
+                                    <div>
+                                        <p class="font-bold text-base leading-tight">Cash Reward</p>
+                                        <p class="text-xs text-white/80">Perksurge Giveaway</p>
+                                    </div>
+                                </div>
+                                <span class="px-2.5 py-1 rounded-lg bg-white/20 backdrop-blur-sm text-xs font-bold tracking-wider uppercase">
+                                    USA
+                                </span>
+                            </div>
+
+                            <div class="my-6 relative z-10">
+                                <p class="text-xs uppercase tracking-widest text-white/80 font-semibold mb-1">Grand Prize Value</p>
+                                <div class="text-5xl sm:text-6xl font-black tracking-tight">
+                                    $1,000
+                                </div>
+                            </div>
+
+                            <div class="pt-5 border-t border-white/20 flex items-center justify-between text-xs text-white/90 relative z-10">
+                                <span>Digital Transfer / Card</span>
+                                <span class="font-mono font-semibold">VERIFIED ENTRY</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="py-16 px-4 sm:px-6 bg-white border-y border-slate-200/70">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center max-w-2xl mx-auto mb-12">
+                    <span class="text-xs font-bold uppercase tracking-widest text-cash-600">Simple 3-Step Process</span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-2">How to Enter the Giveaway</h2>
+                    <p class="text-slate-600 text-sm sm:text-base mt-2">
+                        Completing your promotional entry takes less than a minute. Follow the steps below to get started.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+                    <!-- Step 1 -->
+                    <div class="bg-slate-50 rounded-3xl p-6 sm:p-7 border border-slate-200/60 relative">
+                        <div class="w-11 h-11 rounded-2xl bg-cash-500 text-white font-extrabold text-lg flex items-center justify-center mb-5 shadow-sm">
+                            1
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Click "Claim Your Entry"</h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Tap any entry button on this page and share with 5 friends to unlock the official Perksurge sweepstakes portal.
+                        </p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="bg-slate-50 rounded-3xl p-6 sm:p-7 border border-slate-200/60 relative">
+                        <div class="w-11 h-11 rounded-2xl bg-cash-500 text-white font-extrabold text-lg flex items-center justify-center mb-5 shadow-sm">
+                            2
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Submit Email &amp; Zip Code</h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Enter your active email address and valid U.S. zip code so we can verify your regional eligibility and contact winners.
+                        </p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="bg-slate-50 rounded-3xl p-6 sm:p-7 border border-slate-200/60 relative">
+                        <div class="w-11 h-11 rounded-2xl bg-cash-500 text-white font-extrabold text-lg flex items-center justify-center mb-5 shadow-sm">
+                            3
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Confirm &amp; Check Inbox</h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Complete the brief survey/registration steps on the sponsor page and watch your email inbox for winner announcements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Eligibility & FAQ Summary Section -->
+        <section class="py-16 px-4 sm:px-6">
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white rounded-3xl p-6 sm:p-10 shadow-card border border-slate-100">
+                    <h2 class="text-2xl font-extrabold text-slate-900 mb-6 text-center sm:text-left">
+                        Eligibility &amp; Giveaway Details
+                    </h2>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                        <div class="flex items-start gap-3.5">
+                            <div class="w-8 h-8 rounded-xl bg-cash-50 text-cash-600 flex items-center justify-center shrink-0 mt-0.5">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">U.S. Residency Required</h4>
+                                <p class="text-xs sm:text-sm text-slate-600 mt-1">
+                                    Open exclusively to legal residents of the 50 United States and the District of Columbia.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3.5">
+                            <div class="w-8 h-8 rounded-xl bg-cash-50 text-cash-600 flex items-center justify-center shrink-0 mt-0.5">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">Minimum Age 18+</h4>
+                                <p class="text-xs sm:text-sm text-slate-600 mt-1">
+                                    Participants must be at least 18 years of age or the age of majority in their state at time of entry.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3.5">
+                            <div class="w-8 h-8 rounded-xl bg-cash-50 text-cash-600 flex items-center justify-center shrink-0 mt-0.5">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">Valid Contact Information</h4>
+                                <p class="text-xs sm:text-sm text-slate-600 mt-1">
+                                    Requires a valid email address and accurate zip code submission on the offer page.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3.5">
+                            <div class="w-8 h-8 rounded-xl bg-cash-50 text-cash-600 flex items-center justify-center shrink-0 mt-0.5">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">One Entry Per Person</h4>
+                                <p class="text-xs sm:text-sm text-slate-600 mt-1">
+                                    Duplicate or automated submissions will be disqualified in accordance with sweepstakes rules.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Secondary Bottom CTA -->
+                    <div class="pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4">
+                        <div class="text-center sm:text-left">
+                            <p class="font-bold text-slate-900">Ready to submit your entry?</p>
+                            <p class="text-xs text-slate-500">Takes less than 1 minute • Free to enter</p>
+                        </div>
+                        <button id="secondary-cta-btn"
+                           onclick="openShareModal()"
+                           class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-bold text-base py-3.5 px-7 rounded-2xl transition-colors cursor-pointer">
+                            <span>Continue to Offer</span>
+                            <svg class="w-5 h-5 text-cash-400" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 5-Friend Share Verification Modal -->
+    <div id="share-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-900/70 backdrop-blur-sm p-4">
+        <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-7 shadow-2xl border border-slate-100 text-center relative">
+            <!-- Close Button -->
+            <button onclick="closeShareModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 p-1">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
+
+            <div class="w-14 h-14 rounded-2xl bg-cash-100 text-cash-600 flex items-center justify-center mx-auto mb-4">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/>
+                </svg>
+            </div>
+
+            <h3 class="text-xl font-extrabold text-slate-900 mb-2">Final Step: Share With 5 Friends</h3>
+            <p class="text-sm text-slate-600 mb-5 leading-relaxed">
+                To verify you're a real participant and unlock your <strong>$1,000 CashApp</strong> entry link, share this giveaway with <strong>5 friends</strong>.
+            </p>
+
+            <!-- Progress Bar -->
+            <div class="mb-5 text-left">
+                <div class="flex justify-between text-xs font-bold text-slate-700 mb-1.5">
+                    <span>Verification Progress</span>
+                    <span id="share-count-text" class="text-cash-600">0 / 5 Shared</span>
+                </div>
+                <div class="w-full bg-slate-100 rounded-full h-3.5 overflow-hidden border border-slate-200/70">
+                    <div id="share-progress-bar" class="bg-cash-500 h-full rounded-full transition-all duration-300" style="width: 0%;"></div>
+                </div>
+            </div>
+
+            <!-- Share Action Buttons -->
+            <div id="share-buttons-area" class="space-y-2.5 mb-4">
+                <button onclick="handleShare('whatsapp')"
+                        class="w-full flex items-center justify-center gap-2.5 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3 px-4 rounded-xl transition-colors cursor-pointer">
+                    <span>Share via WhatsApp</span>
+                </button>
+                <button onclick="handleShare('messenger')"
+                        class="w-full flex items-center justify-center gap-2.5 bg-[#0084FF] hover:bg-[#0073e6] text-white font-bold py-3 px-4 rounded-xl transition-colors cursor-pointer">
+                    <span>Share via Messenger / SMS</span>
+                </button>
+                <button onclick="handleShare('copy')"
+                        class="w-full flex items-center justify-center gap-2.5 bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold py-3 px-4 rounded-xl transition-colors cursor-pointer">
+                    <span id="copy-btn-text">Copy Giveaway Link</span>
+                </button>
+            </div>
+
+            <!-- Final Offer Link Button (Locked until 5 shares) -->
+            <div id="unlock-area">
+                <button id="locked-offer-btn"
+                        disabled
+                        class="w-full bg-slate-200 text-slate-400 font-bold py-3.5 px-6 rounded-xl cursor-not-allowed">
+                    🔒 Complete 5 Shares to Unlock
+                </button>
+
+                <a id="unlocked-offer-link"
+                   href="https://app.trcefy.com/click?pid=2&offer_id=25563&sub2=u502833&sub5=s1SUBID1HERE"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="hidden w-full bg-cash-500 hover:bg-cash-600 text-white font-extrabold py-3.5 px-6 rounded-xl shadow-glow transition-all animate-bounce">
+                    ✅ Claim Your $1,000 Entry Now →
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Transparent Sweepstakes Disclaimer Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 px-4 sm:px-6 mt-auto">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pb-8 border-b border-slate-800">
+                <div class="flex items-center gap-2">
+                    <div class="w-7 h-7 rounded-lg bg-cash-500 flex items-center justify-center text-white font-extrabold text-sm">
+                        $
+                    </div>
+                    <span class="font-bold text-white text-base">Perksurge Promotions</span>
+                </div>
+                <div class="flex flex-wrap justify-center gap-5 text-xs">
+                    <a href="#privacy" onclick="event.preventDefault()" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#terms" onclick="event.preventDefault()" class="hover:text-white transition-colors">Terms &amp; Conditions</a>
+                    <a href="#rules" onclick="event.preventDefault()" class="hover:text-white transition-colors">Official Sweepstakes Rules</a>
+                </div>
+            </div>
+
+            <div class="pt-8 text-xs leading-relaxed space-y-3 text-slate-400">
+                <p>
+                    <strong class="text-slate-300">PROMOTIONAL DISCLAIMER:</strong> This website is an independent promotional landing page operated by Perksurge Promotions and is <strong>not affiliated with, endorsed by, sponsored by, or administered by Cash App or Block, Inc.</strong> "Cash App" and the Cash App logo are registered trademarks of Block, Inc., used here solely for descriptive identification of the promotional reward.
+                </p>
+                <p>
+                    <strong class="text-slate-300">SWEEPSTAKES DISCLOSURE:</strong> No purchase or payment of any kind is necessary to enter or win. A purchase will not increase your chances of winning. Open only to legal residents of the United States (50 U.S. &amp; D.C.) who are 18 years of age or older at the time of entry. Void where prohibited by law. Participation requires submission of a valid email address and U.S. zip code on the sponsor's registration page and completion of optional promotional survey steps.
+                </p>
+                <p class="text-slate-500 pt-2">
+                    &copy; 2026 Perksurge Promotions. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Script for 5-Share Counter & Offer Unlock -->
+    <script>
+        let shareCount = parseInt(localStorage.getItem("perksurge_share_count") || "0", 10);
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const unlockedLink = document.getElementById("unlocked-offer-link");
+            if (unlockedLink && CONFIG.AFFILIATE_OFFER_URL) {
+                unlockedLink.href = CONFIG.AFFILIATE_OFFER_URL;
+            }
+            updateShareUI();
+        });
+
+        function openShareModal() {
+            const modal = document.getElementById("share-modal");
+            modal.classList.remove("hidden");
+            modal.classList.add("flex");
+            updateShareUI();
+        }
+
+        function closeShareModal() {
+            const modal = document.getElementById("share-modal");
+            modal.classList.add("hidden");
+            modal.classList.remove("flex");
+        }
+
+        function handleShare(platform) {
+            const pageUrl = window.location.href;
+            const text = encodeURIComponent(CONFIG.SHARE_MESSAGE + pageUrl);
+
+            if (platform === "whatsapp") {
+                window.open(`https://api.whatsapp.com/send?text=${text}`, "_blank");
+            } else if (platform === "messenger") {
+                if (navigator.share) {
+                    navigator.share({
+                        title: document.title,
+                        text: CONFIG.SHARE_MESSAGE,
+                        url: pageUrl
+                    }).catch(() => {});
+                } else {
+                    window.open(`sms:?&body=${text}`, "_blank");
+                }
+            } else if (platform === "copy") {
+                navigator.clipboard.writeText(pageUrl).then(() => {
+                    const copyBtnText = document.getElementById("copy-btn-text");
+                    copyBtnText.textContent = "Link Copied!";
+                    setTimeout(() => {
+                        copyBtnText.textContent = "Copy Giveaway Link";
+                    }, 2000);
+                });
+            }
+
+            if (shareCount < CONFIG.REQUIRED_SHARES) {
+                shareCount++;
+                localStorage.setItem("perksurge_share_count", shareCount.toString());
+                updateShareUI();
+            }
+        }
+
+        function updateShareUI() {
+            const countText = document.getElementById("share-count-text");
+            const progressBar = document.getElementById("share-progress-bar");
+            const lockedBtn = document.getElementById("locked-offer-btn");
+            const unlockedLink = document.getElementById("unlocked-offer-link");
+
+            const cappedCount = Math.min(shareCount, CONFIG.REQUIRED_SHARES);
+            const percentage = (cappedCount / CONFIG.REQUIRED_SHARES) * 100;
+
+            countText.textContent = `${cappedCount} / ${CONFIG.REQUIRED_SHARES} Shared`;
+            progressBar.style.width = `${percentage}%`;
+
+            if (cappedCount >= CONFIG.REQUIRED_SHARES) {
+                lockedBtn.classList.add("hidden");
+                unlockedLink.classList.remove("hidden");
+                unlockedLink.classList.add("inline-block");
+            } else {
+                const remaining = CONFIG.REQUIRED_SHARES - cappedCount;
+                lockedBtn.textContent = `🔒 Share ${remaining} More Time${remaining > 1 ? 's' : ''} to Unlock`;
+            }
+        }
+    </script>
+</body>
+</html>
